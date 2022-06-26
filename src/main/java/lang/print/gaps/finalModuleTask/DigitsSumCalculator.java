@@ -1,7 +1,7 @@
 package lang.print.gaps.finalModuleTask;
 
 public class DigitsSumCalculator {
-    public void calculateSum(int number) {
+    public static void calculateSum(int number) {
         int sum = 0;
         int first = number % 10;
         sum = sum + first;
@@ -14,5 +14,6 @@ public class DigitsSumCalculator {
         int six = fourth / 10;
         int seven = six % 10;
         sum = sum + seven;
+        System.out.println(sum);
     }
 }
