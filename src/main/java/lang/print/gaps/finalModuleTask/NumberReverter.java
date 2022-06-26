@@ -10,6 +10,8 @@ public class NumberReverter {
         sum = sum + third;
         int fourth = second / 10;
         int fifth  = fourth % 10;
-        System.out.println("" + first + third + fifth);
+        System.out.print(first);
+        System.out.print(third);
+        System.out.print(fifth);
     }
 }
