@@ -14,6 +14,6 @@ public class DigitsSumCalculator {
         int six = fourth / 10;
         int seven = six % 10;
         sum = sum + seven;
-        System.out.println(sum);
+        System.out.println(sum + "\n");
     }
 }
